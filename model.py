@@ -7,7 +7,7 @@ import pickle
 import os
 
 def load_data():
-    df = pd.read_csv("/Users/harshuu/Desktop/aryaM/adult_sample.csv")
+    df = pd.read_csv("adult_sample.csv")
     return df
 
 def preprocess_data(df):
